@@ -22,7 +22,7 @@ spec:
 
         env:
         - name: STUDENT_NAME
-          value: "Your_Name"
+          value: "Lakshmi Priya K S"
 
         ports:
         - containerPort: 80
