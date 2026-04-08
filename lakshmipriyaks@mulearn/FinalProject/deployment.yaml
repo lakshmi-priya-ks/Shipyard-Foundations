@@ -18,7 +18,8 @@ spec:
     spec:
       containers:
       - name: my-web-container
-        image: my-web-app
+        image: my-web-app:1.0
+        imagePullPolicy: IfNotPresent
 
         env:
         - name: STUDENT_NAME
